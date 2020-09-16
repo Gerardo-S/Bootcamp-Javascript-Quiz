@@ -43,7 +43,7 @@ startButton.addEventListener("click", function (event) {
         questionsArray.textContent = questions;
         instructions.textContent = "";
         // list the 4 choices
-        // Maybe make this into a function so when next question is presented code can call upon this function
+        
         for (var i = 0; i < 4; i++) {
 
 
