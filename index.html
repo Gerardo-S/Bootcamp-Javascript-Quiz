@@ -7,12 +7,13 @@
     <title>Javascript BootCamp Quiz</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   
     <header class="row">
-        <div class="col-md-6">View High scores</div>
+        <div class="col-md-6" id="viewScore">View High scores</div>
         <div class="col-md-6" id="timer">Time: 0</div>
         <br>
         <br>
@@ -31,6 +32,26 @@
             
         </div>
     </main>
+    <aside class="score-form">
+        <div class = "row">
+            <div class="col-md-8">
+                <h2>High Scores</h2>
+            </div>
+        </div>
+        <br>
+        <div class = "row">
+            <div class="col-md-8">
+                <form id="listofScores">
+                    <input type="text" placeholder="initials and score" id="user-initials">
+                </form>
+            </div>
+        </div>
+        <br>
+        <!-- High score list updated here -->
+        <div class = "highScorelist row">
+            <ol class = "col-md-8"></ol>
+        </div>
+    </aside>
     
 
     <script src = "script.js"></script>
