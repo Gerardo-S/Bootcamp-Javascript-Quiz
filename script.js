@@ -1,10 +1,4 @@
-// <!-- link View High score to score.html when clicked -->
-//     <!-- score.html page to include header to say "Highscores" -->
-//     <!-- add two buttons to score.html "Go Back & Clear Highscores" -->
 
-
-//     <!-- add event to both buttons so when clicked "Go Back links to index.html" -->
-//     <!-- add event to Clear Highscores when clicked it sets scores array to blank-->
 // Variables for querySelector
 var startButton = document.querySelector(".startButton");
 var timer = document.querySelector("#timer");
@@ -154,9 +148,3 @@ userInitialsID.addEventListener("submit", function(event){
     
 
 });
-// remaining pseudo code 
-//     <!--final score is shown as p tag -->
-//     <!-- "Enter initials" with form for input & submit button -->
-//     <!-- information is saved in localStorage -->
-//     <!-- When submit button is clicked score appears as a list on score.html -->
-//     <!--Keep in mind that incorrect answers will penalize your score/time by ten seconds!" -->
